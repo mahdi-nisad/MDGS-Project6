@@ -675,6 +675,71 @@ a .active,a:hover{
     
     
 }
+
+
+
+@media screen and (max-width:380px){
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        height: 200px;
+    }
+    .contact{
+        grid-template-columns: 1fr;
+
+        width: 250px;
+        height:250px ;
+    }
+    .background{
+        height: 600px;
+        font-size: 12px;
+        line-break:2px;
+    }
+    .second{
+        height: 550px;
+        font-size: small;
+        line-break:2px;
+       
+        
+        margin-left: 24px;
+        
+
+    }
+    .half img{
+        height: 500px;
+    }
+    .bangla{
+        height: 575px;
+    }
+    .bangla1{
+        height: 595px;
+        font-size: 14px;
+        
+    }
+    
+    .first{
+        margin-left: 1.4rem;
+        margin-right: .9rem;
+        font-size: 1rem;
+        grid-template-columns: 1fr;
+        height: 630px;
+        
+        
+
+        
+
+    }
+    .first p{
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 70px;
+
+
+    }
+    
+    
+}
  /** Responsive**/
 
 
